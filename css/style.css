@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/labirinto.jpg');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+#box { 
+    width: 50px; 
+    height: 50px;
+    position: absolute; 
+    left: 0px; 
+    top: 25px;
+    border-radius: 100px;
+    background-image: url('https://www.pngplay.com/wp-content/uploads/6/Emoji-PNG-HD-Quality.png');
+    background-position: center;
+    background-size: cover;
+}
+p {
+    position: absolute;
+    left: 660px;
+    top: 500px;
+    font-size: 30px;
+    color: #f00;
+}
