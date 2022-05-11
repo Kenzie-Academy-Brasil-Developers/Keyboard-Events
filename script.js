@@ -21,6 +21,7 @@ const emoji = criarElemento("div", "body", undefined, "box");
 
 let boxCima = 25;
 let boxEsquerda = 0;
+
 function moverEmoji(event) {
   if (event.key == "ArrowDown") {
     boxCima += 5;
